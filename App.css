@@ -1,0 +1,44 @@
+body {
+  justify-content: center;
+  text-align: center;
+  background-color: #e4f3d1;
+  color: black;
+  transition: 0.5s ease;
+  height: 100vh;
+  position: relative;
+  top: 150px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.toggle-button {
+  background-color: aqua;
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: hsl(0, 27%, 88%);
+  transform: scale(1.05);
+  color: rgb(139, 34, 157);
+}
+
+h1 {
+  color: hsl(127, 80%, 53%);
+}
+
+.container .toggle-button {
+  background-color: #a4e56d;
+}
+
+.container.dark {
+  background-color: #2b2828;
+  color: white;
+  transition: 0.5s ease;
+}
